@@ -482,6 +482,44 @@ figcaption {
     font-size: 12px;
 }
 
+div.summarycontainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.summary {
+    width: 70%;
+}
+
+div.summary p {
+    width: 90%;
+}
+
+div.libraries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    background-color: var(--bgcolor);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+div.libraries div {
+    width: 100%;
+}
+
+div.libraries div h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+div.libraries div p {
+    width: 100%;
+    text-align: center;
+}
+
 @media screen and (min-width: 1921px) {
     .gallery {
         display: grid;
@@ -501,6 +539,18 @@ figcaption {
 }
 
 @media screen and (max-width: 1500px) {
+    div.summarycontainer {
+        flex-wrap: wrap;
+    }
+
+    div.summary {
+        width: 100%;
+    }
+
+    div.libraries {
+        width: 100%;
+    }
+
     section.categories {
         flex-wrap: wrap;
     }

@@ -136,6 +136,15 @@ section.contact p {
     margin-right: 60px;
 }
 
+section.contact ul {
+    margin: 20px 60px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
 section.other-works {
     background-color: var(--bgcolor);
     box-shadow: none;
@@ -270,7 +279,7 @@ img {
 
 .gallery-other {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 20px;
     margin: 0px;
@@ -543,7 +552,7 @@ p.status {
 
     .gallery-other {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-gap: 20px;
         margin: 0px;

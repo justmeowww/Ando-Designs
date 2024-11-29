@@ -211,7 +211,7 @@ button.nav-button {
     width: 70%;
     border: none;
     border-radius: 15px;
-    transition: background-color 200ms ease-in;
+    transition: background-color 500ms ease-in;
 }
 
 button.nav-button:hover {
